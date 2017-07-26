@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
+import './header.css'
 
-class Header extends Component {
+export default class Header extends Component {
   render() {
     return (
-      <div>
+      <div className="header">
         <h2>My first react app</h2>
       </div>
     )
   }
 }
-
-export default Header
