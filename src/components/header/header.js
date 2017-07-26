@@ -7,8 +7,8 @@ export default class Header extends Component {
     const name = 'dogrod'
 
     return isWelecomePage
-            ? `Hello, ${name}'s first react app`
-            : `Goodbye ${name}`
+      ? `Hello, ${name}'s first react app`
+      : `Goodbye ${name}`
   }
 
   render() {
